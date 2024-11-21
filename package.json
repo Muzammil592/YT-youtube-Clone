@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon -r dotenv/config --experimental-json-modules  src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules  src/index.js"
   },
   "keywords": [
     "javascript"
@@ -13,6 +13,9 @@
   "author": "Muzammil",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "mongoose": "^8.8.1",
